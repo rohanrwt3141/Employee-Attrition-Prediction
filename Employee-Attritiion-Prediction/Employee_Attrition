@@ -1,0 +1,43 @@
+The importance of an Employee Attrition Prediction project is that it solves a real business problem: employee turnover.
+
+Why is it important?
+
+Imagine a company has 1,000 employees. Every year, some employees leave. Replacing them can involve:
+
+Recruiting a new person
+Conducting interviews
+Training the new employee
+Losing productivity while the position is vacant
+Losing experienced employees and their knowledge
+
+An ML system can analyze employee data and identify patterns associated with employees who leave.
+
+Example
+
+Suppose the model finds that employees with:
+
+Low job satisfaction
+Frequent overtime
+Low salary
+Few promotion opportunities
+Poor work-life balance
+
+are more frequently associated with attrition in the historical dataset.
+
+The company can then investigate those factors and take appropriate retention measures.
+
+
+
+For your portfolio, you can describe the project as:
+
+"A machine learning system that analyzes employee characteristics and workplace factors to predict attrition risk and identify patterns associated with employee turnover."
+
+
+Learning:-
+In this Project i have use scoring = "recall" in gridSearchCV to increase the recall
+Here the recall is very important than the accuaracy
+to achieve high recall i also use class_weight = "balance" because the data is imbalance and moreover i use the concept
+of probabity and threshold for the same.
+don't depend on single model try different model for the project and then finalise the model
+in this project first i use RandomForestClassifier it doesn't give good result then i use powerful model that is XGBoostClassifier
+it also not gave me statisfation result then i used LogisticRegression and it give me the Better Result
